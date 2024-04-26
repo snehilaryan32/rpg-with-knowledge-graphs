@@ -24,7 +24,7 @@ CREATE (:Person {name: 'Torg Earkeeper'})
 CREATE (:Person {name: 'Meka the Face Chewer'})
 CREATE (:Person {name: 'Chag the Noseless'})
 
-// Relationships
+// Location Relationships
 MATCH (l:Location {name: 'Forest'}), (e:Enemy {name: 'Goblin'}), (i:Item {name: 'Treasure'})
 CREATE (l)-[:PROTECTED_BY]->(e), (e)-[:DROPS]->(i)
 
