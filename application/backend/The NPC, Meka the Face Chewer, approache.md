@@ -12,3 +12,11 @@ NPC Dialogue: Ah, greetings traveler. I have a task that requires someone skille
 Quest Objective: Travel to Westbrook and defeat the bandits to retrieve the stolen supplies.
 
 Reward: A generous sum of gold and a powerful weapon to aid you in your journeys. Good luck, brave adventurer.
+
+
+{
+    "title": "The Errata Blade",
+    "npc_dialogue": "Ah, greetings traveler! I am Regina Jones, a humble weapon smith here in Kabuki. I have heard of a powerful Tier 2 melee weapon called Errata that is said to be located in the district of Watson. Legends speak of its incredible bonuses, including +25% Armor Penetration and +17% Burn Chance. Bring me the Errata blade, and I shall reward you handsomely.",
+    "objective": "Travel to Watson and retrieve the Errata blade from its rumored location. Be prepared to face any dangers that may stand in your way.",
+    "reward": "Upon successful completion of this quest, you shall receive the mighty Errata blade as well as a bag of gold coins to aid you on your journey."
+}
