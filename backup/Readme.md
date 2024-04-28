@@ -1,1 +1,0 @@
-curl -X POST http://localhost:5000/graphql -H "Content-Type: application/json" -d '{"query": "{ hello }"}'
