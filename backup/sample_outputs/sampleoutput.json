@@ -1,0 +1,43 @@
+{
+    "data": {
+      "generateGameContent": {
+        "CosineSimilarityResult": {
+          "matched": "tier: Tier 5, name: Headhunter, weight: 2.3, bonuses: ['+150% Headshot Damage Multiplier', '+20% Bleeding Chance'], class: Melee LOCATED IN name: The Scraper",
+          "idx": 41
+        },
+        "matchedRelationships": [
+          "{\"node1\": {\"type\": null, \"properties\": {\"name\": \"Anthony Anderson\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"The Scraper\"}}}",
+          "{\"node1\": {\"type\": null, \"properties\": {\"tier\": \"Tier 5\", \"name\": \"Butcher's Cleaver\", \"weight\": \"4\", \"bonuses\": [\"+25% Armor Penetration\", \"+40% Bleeding Chance\"], \"class\": \"Melee\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"The Scraper\"}}}",
+          "{\"node1\": {\"type\": null, \"properties\": {\"tier\": \"Tier 5\", \"name\": \"Headhunter\", \"weight\": \"2.3\", \"bonuses\": [\"+150% Headshot Damage Multiplier\", \"+20% Bleeding Chance\"], \"class\": \"Melee\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"The Scraper\"}}}",
+          "{\"node1\": {\"type\": null, \"properties\": {\"tier\": \"Tier 5\", \"name\": \"CHAOS\", \"weight\": \"4.3\", \"bonuses\": [\"+150% Headshot Damage Multiplier\", \"+50% Armor Penetration\", \"0.5sec Charge Time\", \"+10% Bleeding Chance\"], \"type\": \"Pistol\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"The Scraper\"}}}",
+          "{\"node1\": {\"type\": null, \"properties\": {\"name\": \"The Scraper\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"Dogtown\"}}}"
+        ],
+        "quest": "content='{\\n    \"title\": \"The Headhunter\\'s Challenge\",\\n    \"npc_dialogue\": \"Ah, greetings traveler! I am Anthony Anderson, a renowned hunter in these lands. I have heard of your skills in combat and I have a proposition for you. Deep within the treacherous lands of The Scraper lies a legendary revolver known as \\'CHAOS\\'. This pistol is said to grant its wielder incredible headshot bonuses. Bring me this weapon as proof of your prowess, and you shall be rewarded handsomely.\",\\n    \"objective\": \"Travel to The Scraper located in Dogtown and retrieve the legendary revolver \\'CHAOS\\'. Defeat any foes that stand in your way and bring the weapon back to Anthony Anderson.\",\\n    \"reward\": \"You will be rewarded with \\'CHAOS\\', the legendary revolver with a +150% Headshot Damage Multiplier, +50% Armor Penetration, 0.5sec Charge Time, and +10% Bleeding Chance.\"\\n}'"
+      }
+
+
+    }
+
+    {
+        "data": {
+          "generateGameContent": {
+            "CosineSimilarityResult": {
+              "matched": "name: City Center BORDERS name: Pacifica",
+              "idx": 56
+            },
+            "matchedRelationships": [
+              "{\"node1\": {\"type\": null, \"properties\": {\"name\": \"City Center\"}}, \"relation\": \"BORDERS\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"Pacifica\"}}}",
+              "{\"node1\": {\"type\": null, \"properties\": {\"name\": \"Coast View\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"Pacifica\"}}}",
+              "{\"node1\": {\"type\": null, \"properties\": {\"name\": \"West Wind Estate\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"Pacifica\"}}}",
+              "{\"node1\": {\"type\": null, \"properties\": {\"name\": \"Grand Imperial Mall\"}}, \"relation\": \"LOCATED IN\", \"node2\": {\"type\": null, \"properties\": {\"name\": \"Pacifica\"}}}"
+            ],
+            "quest": {
+              "title": "The Lost Blade of Pacifica",
+              "npcDialogue": "Ah, traveler! I have heard tales of a powerful weapon, known as the Lost Blade of Pacifica, hidden somewhere in the City Center of Pacifica. Many have sought it, but none have succeeded. Are you brave enough to seek out this legendary weapon?",
+              "objective": "Journey to the City Center of Pacifica and search for clues that will lead you to the location of the Lost Blade. Be prepared to face fierce enemies guarding the weapon.",
+              "reward": "The Lost Blade of Pacifica is said to possess great power and will aid you in your future battles. In addition, I will reward you with a bag of gold coins for your bravery."
+            }
+          }
+        }
+      }
+
