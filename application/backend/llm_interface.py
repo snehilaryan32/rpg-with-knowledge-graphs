@@ -18,7 +18,8 @@ class QuestGenerator:
         extracted from a knowledge graph you are supposed to generate the quest for the player. 
         With the quest you are also expected to generate an acompynying dialouge that will be spoken 
         by an NPC that will give the quest to the player. Also generate a reward as well as an exact 
-        objective for the quest. Respond in JSON with `title`, `npc_dialogue`, `objective` and `reward` keys
+        objective for the quest. The game is set in a distopian future and called Cyberpunk 2077. Keep in mind the setting of the game when generating the content 
+        Respond in JSON with `title`, `npc_dialogue`, `objective` and `reward` keys
         '''
     
         # self.template_rewards = ChatPromptTemplate.from_messages([
