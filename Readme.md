@@ -34,8 +34,23 @@ playable experiences using a combination of Knowledge graphs and Large language 
 
 ![Architecture Diagram](https://github.com/snehilaryan32/rpg-with-knowledge-graphs/blob/main/arch_diagram_big.drawio.png)
 
-## QuestFusion GraphQL API Documentation
+## Local Deployment Steps 
+1. To deploy the api and ui clone the repository and install the dependencies first 
+```shell
+pip install requirements.txt
+```
 
+Go to application/backend directory and host the GraphQL API
+```shell
+uvicorn app_graphql:app --reload --port 8080
+```
+
+Go to application/frontend to deploy the frontend
+```shell
+streamlit run frontend.py
+```
+
+## QuestFusion GraphQL API Documentation
 
 ### Queries
 
