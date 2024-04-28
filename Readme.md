@@ -84,6 +84,6 @@ query {
 }
 
 #### Output 
-![Sample Output For the given Query](https://github.com/snehilaryan32/rpg-with-knowledge-graphs/blob/main/arch_diagram_big.drawio.png)
+![Sample Output For the given Query](https://github.com/snehilaryan32/rpg-with-knowledge-graphs/blob/main/SampleOutputGraphQL.png)
 
 
