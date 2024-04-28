@@ -129,4 +129,8 @@ query {
 #### Output 
 ![Sample Output For the given Query](https://github.com/snehilaryan32/rpg-with-knowledge-graphs/blob/main/SampleOutputGraphQL.png)
 
+## Link for the research Paper
+
+https://dl.acm.org/doi/10.1145/3544548.3581441
+
 
