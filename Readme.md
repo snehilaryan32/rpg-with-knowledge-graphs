@@ -1,5 +1,6 @@
 # QuestFusion
 
+## Introduction
 
 ## Architecture Diagram:
 
@@ -67,19 +68,22 @@ Generates game content (quest) based on the player input and the knowledge graph
 
 #### Example
 query {
-  generateGameContent(player_input: "Retrieve the sword of legend") {
+  generateGameContent(playerInput: { text: "I want a quest that can help me gain a tier-5 weapon" }) {
     CosineSimilarityResult {
       matched
       idx
     }
     matchedRelationships
-    quest {
-      title
-      npcDialogue
-      objective
-      reward
+    quest{
+          title
+    			npcDialogue
+    			objective
+    			reward
     }
   }
 }
+
+#### Output 
+![Sample Output For the given Query](https://github.com/snehilaryan32/rpg-with-knowledge-graphs/blob/main/arch_diagram_big.drawio.png)
 
 
